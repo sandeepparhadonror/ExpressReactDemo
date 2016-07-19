@@ -2,10 +2,10 @@
   "name": "ExpressReactDemoApp",
   "version": "0.0.1",
   "description": "Express and React Tutorial",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "dependencies" : {
     "body-parser": "^1.4.3",

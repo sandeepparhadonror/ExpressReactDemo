@@ -5,7 +5,7 @@ var bodyparser = require('body-parser');
 var app = express();
 
 var COMMENTS_FILE = path.join(__dirname, 'comments.json' );
-app.set('port', (process.env.PORT || 3000 ));
+app.set('port', (process.env.PORT || 8080 ));
 
 app.use('/', express.static( path.join(__dirname, 'public' )));
 app.use(bodyparser.json());
